@@ -7,15 +7,22 @@ div.container{
     background-clip: border-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 40px;
+    font-size: 53px;
+    position: relative;
       }
 
-      .gradient:hover {
-        background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 0, 0, 0.5)), to(rgba(255, 255, 0, 0.5)));
-        background-clip: border-box;
-        
-        
-          }
+      .border-red:hover{
+          /*border: solid 2px red;*/
+          background-color: red;
+      }
+.gradient:hover {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 0, 0, 0.5)), to(rgba(255, 255, 0, 0.5)));
+    background-clip: border-box;
+      }
+.gradient-border:hover {
+    background-image: linear-gradient(to right, red, yellow);
+  
+} 
 /*Video Banner*/
 
 header {
@@ -71,10 +78,7 @@ header {
 
   #photography {
     background-image: none;
-    
     color:#212529;
-    margin-left:20%;
-    margin-right: 20%;
     font-size:16px;
   }
   
