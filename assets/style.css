@@ -9,6 +9,7 @@ div.container{
     -webkit-text-fill-color: transparent;
     font-size: 53px;
     position: relative;
+    border-radius: 90%;
       }
 
       .border-red:hover{
