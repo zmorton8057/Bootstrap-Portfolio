@@ -7,7 +7,7 @@ div.container{
     background-clip: border-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 53px;
+    font-size: 60px;
     position: relative;
     border-radius: 90%;
       }
@@ -22,8 +22,19 @@ div.container{
       }
 .gradient-border:hover {
     background-image: linear-gradient(to right, red, yellow);
-  
 } 
+/*Header Animation*/
+
+.fadeInBottom { animation-name: fadeInBottom;
+    animation: fadeInBottom 3.5s 1; }
+@keyframes fadeInBottom {
+    from {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    to { opacity: 1 }
+    
+}
 /*Video Banner*/
 
 header {
