@@ -26,7 +26,7 @@ div.container{
 /*Header Animation*/
 
 .fadeInBottom { animation-name: fadeInBottom;
-    animation: fadeInBottom 3.5s 1; }
+    animation: fadeInBottom 3s infinite; }
 @keyframes fadeInBottom {
     from {
         opacity: 0;
