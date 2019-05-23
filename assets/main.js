@@ -15,3 +15,8 @@ $(document).ready(function(){
 
   
   TweenMax.from(".fadeInBottom", 1, {alpha:0, y:"100%"});
+
+  var cloudinary = require("cloudinary-core"); // If your code is for ES5
+import cloudinary from “cloudinary-core”;    // If your code is for ES6 or higher
+
+var cl = new cloudinary.Cloudinary({cloud_name: "zacmorton-com", secure: true});
