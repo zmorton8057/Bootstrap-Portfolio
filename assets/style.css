@@ -69,6 +69,7 @@ header .overlay {
   z-index: 1;
 }
 
+
 @media (pointer: coarse) and (hover: none) {
   header {
     background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
@@ -78,7 +79,16 @@ header .overlay {
     display: none;
   }
 }
-
+/*Education*/
+.school-logo{
+  width: 250px;
+  position: absolute;
+  left: 100px;
+  top: 150px;
+}
+.education-header{
+  height: 100vh;
+}
 /*Skills Section*/
 .skills-icon {
   background-image: linear-gradient((45deg, red, yellow));

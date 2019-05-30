@@ -1,0 +1,31 @@
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    max-height: 1200px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+.education-bg {
+-webkit-animation: gradient-bg1 24s ease infinite;
+-moz-animation: gradient-bg1 24s ease infinite;
+animation: gradient-bg1 24s ease infinite;
+}
+@-webkit-keyframes gradient-bg1 {
+    0%{background-position:91% 0%}
+    50%{background-position:10% 100%}
+    100%{background-position:91% 0%}
+}
+@-moz-keyframes gradient-bg1 {
+    0%{background-position:91% 0%}
+    50%{background-position:10% 100%}
+    100%{background-position:91% 0%}
+}
+@keyframes gradient-bg1 { 
+    0%{background-position:91% 0%}
+    50%{background-position:10% 100%}
+    100%{background-position:91% 0%}
+}
