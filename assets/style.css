@@ -1,7 +1,4 @@
 /*Utility Classes*/
-div.container {
-  
-}
 
 .fa-gradient:hover {
   background: -webkit-gradient(linear, left top, left bottom, from(#f00), to(yellow));
@@ -24,7 +21,7 @@ div.container {
 }
 
 .gradient-border:hover {
-  background-image: linear-gradient(to right, red, yellow);
+  background-image: linear-gradient(45deg, red, yellow);
 }
 
 /*Header Animation*/
@@ -82,6 +79,15 @@ header .overlay {
   }
 }
 
+/*Skills Section*/
+.skills-icon {
+  background-image: linear-gradient((45deg, red, yellow));
+  text-align: center;
+  font-size: 40px;
+  padding: 20px;
+  border: solid, 5px, black;
+  color: blue;
+}
 /*Photography Section*/
 .gallery-block{
   padding-bottom: 60px;
