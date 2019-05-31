@@ -81,10 +81,12 @@ header .overlay {
 }
 /*Education*/
 .school-logo{
-  width: 250px;
-  position: absolute;
-  left: 100px;
-  top: 150px;
+  width: 60%;
+  margin-top: 20%;
+  margin-left: 20%;
+}
+.edu-caption {
+  margin-left: 10%;
 }
 .education-header{
   height: 100vh;
