@@ -34,16 +34,16 @@
                     <p class="lead mb-0 display-4  fadeInUp">
                         <a href="https://github.com/zmorton8057" class="fa-gradient icon-border color-white"
                             target="_blank">
-                            <i class="fab fa-github text-white border rounded-circle p-3 fa-gradient "></i>
+                            <i id="fontAwesome" class="fab fa-github text-white border rounded-circle p-3 fa-gradient "></i>
                         </a>
                         <a href="https://www.linkedin.com/in/zackmorton/" class="fa-gradient icon-border color-white"
                             target="_blank">
-                            <i
+                            <i id="fontAwesome"
                                 class="fab fa-linkedin text-white border border-white rounded-circle p-3 fa-gradient"></i>
                         </a>
                         <a href="https://www.instagram.com/zmphotojournal/" class="fa-gradient icon-border color-white"
                             target="_blank">
-                            <i
+                            <i id="fontAwesome"
                                 class="fab fa-instagram text-white border border-white rounded-circle p-3 fa-gradient"></i>
                         </a>
                     </p>
@@ -51,21 +51,21 @@
             </div>
         </div>
     </header>
-    <ul class="nav nav-pills sticky-top bg-dark border border-dark">
+    <ul class="nav nav-pills sticky-top border footer-1 border-dark">
         <li class="nav-item">
-            <a class="nav-link text-white bg-dark gradient gradient-border" href="#about-me">About Me</a>
+            <a class="nav-link gradient gradient-border" href="#about-me">About Me</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link text-white bg-dark gradient" href="#education">Education</a>
+            <a class="nav-link gradient" href="#education">Education</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link text-white bg-dark gradient" href="#skills">Skills</a>
+            <a class="nav-link gradient" href="#skills">Skills</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link text-white bg-dark gradient" href="./photo.html">Photography</a>
+            <a class="nav-link gradient" href="./photo.html">Photography</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link text-white bg-dark gradient" href="#contact-me">Contact Me</a>
+            <a class="nav-link gradient" href="#contact-me">Contact Me</a>
         </li>
         <li class="nav-item">
             <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
@@ -75,14 +75,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8 mx-auto">
-                    <h1 id="about-me" class="mb-4">About Me</h1>
+                    <h1 id="about-me" class="about-header mb-4">About Me</h1>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-4 mx-auto">
                     <img src="./assets/images/podcast.image.jpg" alt="Podcast" class="img-thumbnail">
                 </div>
-                <div class="col-md-8 mx-auto">
+                <div class="about-section col-md-8 mx-auto">
                     <p>Zac Morton is a Software Engineer that specializes in the MERN stack and is born and raised in
                         Southern California. He graduated with a BA in Communications from California State University,
                         Fullerton. His relationship with computers began at an early age. As the son of a physics and
@@ -123,7 +123,7 @@
                 <div class="gradient-bg1 carousel-item active"
                     style="background: linear-gradient(-90deg, rgb(0, 39, 76), rgb(255, 104, 0))">
                     <div class=" d-none d-md-block row flex">
-                        <div class="col-md-6"><img src="./assets/images/csuf.png" alt=""
+                        <div class="col-md-6"><img src="./assets/images/csuf.png" alt="CSUF Logo"
                                 class="img-responsive school-logo">
                         </div>
                         <div class="col-md-6 inline-flex edu-caption">
@@ -135,8 +135,12 @@
                 <!-- Slide Two - Set the background image for this slide in the line below -->
                 <div class="carousel-item" style="background: linear-gradient(90deg, rgb(0, 39, 76), rgb(255, 210, 0))">
                     <div class="carousel-caption d-none d-md-block">
-                        <h2 class="display-4">Second Slide</h2>
-                        <p class="lead">This is a description for the second slide.</p>
+                            <div class="col-md-6"><img src="./assets/images/uci.png" alt="UCI logo"
+                                class="img-responsive school-logo">
+                        </div>
+                        <div class="col-md-6 inline-flex edu-caption">
+                            <h2 class="display-4">University California, Irvine</h2>
+                            <p class="lead">Full Stack Web Development</p>
                     </div>
                 </div>
             </div>
@@ -158,18 +162,18 @@
 
     </div>
     </div>
-    <div class="container m-4 portfolio">
+    <div class="container m-4 portfolio.section justify-content-center">
         <div class="row">
             <h1 id="portfolio" class="m-4">Portfolio</h1>
         </div>
-        <div class="row m-4">
+        <div class="row m-4 justify-content-center">
             
                 <div class="card-deck">
                         <div class="card col-md-4">
                           <img src="https://res.cloudinary.com/zacmorton-com/image/upload/v1558643249/zacMorton.com/Animals/bisonherd_ab60av.jpg" class="card-img-top" alt="...">
                           <div class="card-body">
                             <h5 class="card-title">Project 1</h5>
-                            <p class="card-text">This Project is currently under construction. Check back later to see the final project!</p>
+                            <p class="card-text">This Project is currently under construction. Check back later to see the final project! In the meantime, check out my profile on <a target="_blank" href="https://github.com/zmorton8057">Github</a>.</p>
                           </div>
                           <div class="card-footer">
                             <small class="text-muted">Last updated: June 2, 2019</small>
@@ -179,7 +183,7 @@
                           <img src="https://res.cloudinary.com/zacmorton-com/image/upload/c_scale,e_saturation:80,w_1080/v1558643249/zacMorton.com/Animals/marmot_hup3fi.jpg" class="card-img-top" alt="...">
                           <div class="card-body">
                             <h5 class="card-title">Project 2</h5>
-                            <p class="card-text">This Project is currently under construction. Check back later to see the final project!</p>
+                            <p class="card-text">This Project is currently under construction. Check back later to see the final project! In the meantime, check out my profile on <a target="_blank" href="https://github.com/zmorton8057">Github</a>.</p>
                           </div>
                           <div class="card-footer">
                             <small class="text-muted">Last updated: June 2, 2019</small>
@@ -189,7 +193,7 @@
                           <img src="https://res.cloudinary.com/zacmorton-com/image/upload/v1558643295/zacMorton.com/Flowers/purpleflowers_jrpik9.jpg" class="card-img-top" alt="...">
                           <div class="card-body">
                             <h5 class="card-title">Project 3</h5>
-                            <p class="card-text">This Project is currently under construction. Check back later to see the final project!</p>
+                            <p class="card-text">This Project is currently under construction. Check back later to see the final project!  In the meantime, check out my profile on <a target="_blank" href="https://github.com/zmorton8057">Github</a>.</p>
                           </div>
                           <div class="card-footer">
                             <small class="text-muted">Last updated: June 2, 2019</small>
@@ -223,16 +227,16 @@
 
                     <ul class="list-unstyled">
                         <li>
-                            <a href="#!" class="text-dark">Github</a>
+                            <a href="#!" class="text-white">Github</a>
                         </li>
                         <li>
-                            <a href="#!" class="text-dark">LinkedIn</a>
+                            <a href="#!" class="text-white">LinkedIn</a>
                         </li>
                         <li>
-                            <a href="#!" class="text-dark">Instagram</a>
+                            <a href="#!" class="text-white">Instagram</a>
                         </li>
                         <li>
-                            <a href="#!" class="text-dark">Twitter</a>
+                            <a href="#!" class="text-white">Twitter</a>
                         </li>
                     </ul>
 
@@ -249,16 +253,16 @@
 
                     <ul class="list-unstyled">
                         <li>
-                            <a href="#about-me footer-link" class="text-dark">About</a>
+                            <a href="#about-me footer-link" class="text-white">About</a>
                         </li>
                         <li>
-                            <a href="#education" class="text-dark">Education</a>
+                            <a href="#education" class="text-white">Education</a>
                         </li>
                         <li>
-                            <a href="./photo.html" class="text-dark">Photography</a>
+                            <a href="./photo.html" class="text-white">Photography</a>
                         </li>
                         <li>
-                            <a href="#contact-me" class="text-dark">Contact</a>
+                            <a href="#contact-me" class="text-white">Contact</a>
                         </li>
                     </ul>
 
@@ -275,16 +279,16 @@
 
                     <ul class="list-unstyled">
                         <li>
-                            <a href="#!" class="text-dark">Link 1</a>
+                            <a href="#!" class="text-white">Link 1</a>
                         </li>
                         <li>
-                            <a href="#!" class="text-dark">Link 2</a>
+                            <a href="#!" class="text-white">Link 2</a>
                         </li>
                         <li>
-                            <a href="#!" class="text-dark">Link 3</a>
+                            <a href="#!" class="text-white">Link 3</a>
                         </li>
                         <li>
-                            <a href="#!" class="text-dark">Link 4</a>
+                            <a href="#!" class="text-white">Link 4</a>
                         </li>
                     </ul>
 
@@ -301,16 +305,16 @@
 
                     <ul class="list-unstyled">
                         <li>
-                            <a href="#!" class="text-dark"><i class="fab fa-html5"></i> HTML5</a>
+                            <a href="#!" class="text-white"><i class="fab fa-html5"></i> HTML5</a>
                         </li>
                         <li>
-                            <a href="#!" class="text-dark"><i class="fab fa-css3-alt"></i> CSS</a>
+                            <a href="#!" class="text-white"><i class="fab fa-css3-alt"></i> CSS</a>
                         </li>
                         <li>
-                            <a href="#!" class="text-dark"><i class="fab fa-bootstrap"></i> Bootstrap</a>
+                            <a href="#!" class="text-white"><i class="fab fa-bootstrap"></i> Bootstrap</a>
                         </li>
                         <li>
-                            <a href="#!" class="text-dark"><i class="fab fa-js-square"></i> JavaScript</a>
+                            <a href="#!" class="text-white"><i class="fab fa-js-square"></i> JavaScript</a>
                         </li>
                     </ul>
 
@@ -325,7 +329,7 @@
 
         <!-- Copyright -->
         <div class="footer-copyright text-center py-3 footer-2">© 2019 Copyright:
-            <a href="https://zacmorton.com" class="text-dark">Zac Morton</a>
+            <a href="https://zacmorton.com" class="text-white">Zac Morton</a>
         </div>
         <!-- Copyright -->
 
@@ -343,6 +347,8 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
     <script src="assets/main.js" crossorigin="anonymous"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="./assets/animatescroll.js"></script>
 </body>
 
 </html>

@@ -35,3 +35,5 @@ $('#myCarousel').on('slid.bs.carousel', '', function() {
     }
   
   });
+
+  $('body').animatescroll();
