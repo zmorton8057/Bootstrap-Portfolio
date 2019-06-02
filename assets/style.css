@@ -91,14 +91,24 @@ header .overlay {
 .education-header{
   height: 100vh;
 }
-/*Skills Section*/
-.skills-icon {
-  background-image: linear-gradient((45deg, red, yellow));
-  text-align: center;
-  font-size: 40px;
-  padding: 20px;
-  border: solid, 5px, black;
-  color: blue;
+/*Portfolio Section*/
+.portfolio.section{
+  background-color: lightgrey !important;
+}
+.card {
+  background-color: rgb(80, 80, 80) !important; 
+  align-self: center;
+  margin: 2%;
+  
+}
+.card-img-top{
+  border: solid, 2px,  rgb(248, 248, 133);
+}
+.card-title{
+  color: rgb(248, 248, 133);
+}
+.card-text{
+  color: white;
 }
 /*Photography Section*/
 .gallery-block{
@@ -194,4 +204,16 @@ header .overlay {
   padding:0;
   background-image: url(https://res.cloudinary.com/zacmorton-com/image/upload/v1558643295/zacMorton.com/Flowers/purpleflowers_jrpik9.jpg);
   width: 100%;
+}
+.footer-1{
+  background-color: darkgrey;
+  color: black;
+}
+
+.footer-2 {
+  background-color: rgb(117, 117, 117);
+  color: black;
+}
+.nav-link{
+  color: black;
 }
